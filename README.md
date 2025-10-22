@@ -17,7 +17,7 @@ Inspired by artists like Grimes, Miss Kittin, SOPHIE, AG Cook, Charli XCX, and N
 strudel-electroclash-project/
 ├── main-beat.js              # Core drum + bass framework
 ├── chord-progressions.js     # Advanced chord theory & patterns
-├── examples/
+├── themes/
 │   ├── minimal-dark.js       # Stripped-down dark techno
 │   ├── witchpop-full.js      # Complete witchpop arrangement
 │   └── cyber-glitch.js       # Glitchy experimental cyber
