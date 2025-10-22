@@ -1,21 +1,17 @@
-# 🎹 Strudel Electroclash / Witchpop Framework
+# Producing Electronic Music In Strudel
 
-A live coding framework for creating electroclash, witchpop, and cyber beats using [Strudel REPL](https://strudel.cc).
+A live coding framework for creating electronic beats and chord progresions using [Strudel REPL](https://strudel.cc).
 
-## 🎵 What is This?
+A modular collection of Strudel patterns for building dark electronic music with a cyberpunk aesthetic. 
+Inspired by artists like Grimes, Miss Kittin, SOPHIE, AG Cook, Charli XCX, and Ninajranchi
 
-A modular collection of Strudel patterns for building dark electronic music with a cyberpunk aesthetic. Perfect for:
-- **Electroclash** (Peaches, Fischerspooner, Miss Kittin)
-- **Witchpop** (Grimes, HANA, Alice Glass)
-- **Cyber/Future Bass** (SOPHIE, AG Cook, 100 gecs)
-
-## 🚀 Quick Start
+## Quick Start
 
 1. Open [Strudel REPL](https://strudel.cc) in your browser
 2. Copy code from `main-beat.js` or `chord-progressions.js`
 3. Paste into Strudel and start live coding!
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 strudel-electroclash-project/
@@ -28,7 +24,7 @@ strudel-electroclash-project/
 └── README.md
 ```
 
-## 🎛️ Main Beat Components
+## Main Beat Components (so far!)
 
 ### Drums
 - **4-on-floor kick** with distortion and compression
@@ -46,7 +42,7 @@ strudel-electroclash-project/
 - **Noise sweeps** with perlin-based filter modulation
 - **Master effects** (reverb, compression, limiting)
 
-## 🎼 Chord Progressions
+## Chord Progressions
 
 8 progression options from simple to advanced:
 
@@ -61,7 +57,7 @@ strudel-electroclash-project/
 
 See `chord-progressions.js` for code examples and theory breakdowns.
 
-## 🎨 Key Features
+## Key Features
 
 ### Crunch & Distortion
 ```javascript
@@ -84,7 +80,7 @@ See `chord-progressions.js` for code examples and theory breakdowns.
 .pan(rand)                                     // Random stereo position
 ```
 
-## 🎯 Live Coding Tips
+## Live Coding Tips
 
 ### Building a Track
 1. Start with **kick + bass**
@@ -114,7 +110,7 @@ See `chord-progressions.js` for code examples and theory breakdowns.
 s("bd").when(0.75, x => x.rarely(x => x.speed(0)))
 ```
 
-## 🔊 Mixing Guidelines
+## Mixing Guidelines
 
 ### Gain Staging
 - **Kick:** 1.0 - 1.2
@@ -138,7 +134,7 @@ chords: .hpf(200)
 hats: .hpf(8000)
 ```
 
-## 📚 Music Theory Resources
+## Music Theory
 
 ### Polytonal Layering
 Play major chords over minor bass lines for sophisticated tension:
@@ -156,13 +152,13 @@ note("c4*8").chord("<C^7 D^7 Eb^7 F^7>")
 .struct()         // Custom chord shapes
 ```
 
-## 🛠️ Requirements
+## Requirements
 
 - Modern web browser (Chrome, Firefox, Safari, Edge)
 - [Strudel REPL](https://strudel.cc) (web-based, no installation needed)
 - Basic understanding of JavaScript syntax (helpful but not required)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Feel free to:
 - Add new progression patterns
@@ -170,21 +166,21 @@ Contributions welcome! Feel free to:
 - Improve documentation
 - Report bugs or suggest features
 
-## 📖 Learning Resources
+## Learning Resources
 
 - [Strudel Documentation](https://strudel.cc/learn/)
 - [Tidal Cycles](https://tidalcycles.org/) (inspiration for Strudel)
 - [Sonic Pi](https://sonic-pi.net/) (similar live coding tool)
 
-## 🎓 Credits
+## Credits
 
 Built with [Strudel](https://strudel.cc) by Felix Roos and contributors.
 
 Inspired by:
-- Electroclash pioneers (Peaches, Fischerspooner, Miss Kittin)
-- Witchpop artists (Grimes, HANA, Alice Glass)
-- PC Music / Hyperpop (SOPHIE, AG Cook, 100 gecs)
-- Live coding community (TidalCycles, SuperCollider)
+- Electroclash pioneers 
+- Witchpop artists 
+- PC Music / Hyperpop 
+- Live coding community 
 
 ## 📄 License
 
