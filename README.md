@@ -2,8 +2,8 @@
 
 A live coding framework for creating electronic beats and chord progresions using [Strudel REPL](https://strudel.cc).
 
-A modular collection of Strudel patterns for building dark electronic music with a cyberpunk aesthetic. 
-Inspired by artists like Grimes, Miss Kittin, SOPHIE, AG Cook, Charli XCX, and Ninajranchi
+A modular collection of Strudel patterns for building electronic music similar to some of my own favorites.
+Inspired by artists like DJ Dave, Grimes, Miss Kittin, SOPHIE, AG Cook, Charli XCX, and Ninajranchi
 
 ## Quick Start
 
@@ -177,8 +177,7 @@ Contributions welcome! Feel free to:
 Built with [Strudel](https://strudel.cc) by Felix Roos and contributors.
 
 Inspired by:
-- Electroclash pioneers 
-- Witchpop artists 
+- Electroclash  
 - PC Music / Hyperpop 
 - Live coding community 
 
